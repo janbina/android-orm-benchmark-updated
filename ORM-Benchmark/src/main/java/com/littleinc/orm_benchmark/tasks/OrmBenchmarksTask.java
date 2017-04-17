@@ -6,6 +6,7 @@ import com.littleinc.orm_benchmark.BenchmarkExecutable;
 import com.littleinc.orm_benchmark.cupboard.CupboardExecutor;
 import com.littleinc.orm_benchmark.dbflow.DBFlowExecutor;
 import com.littleinc.orm_benchmark.greendao.GreenDaoExecutor;
+import com.littleinc.orm_benchmark.joogar_new.JoogarNewExecutor;
 import com.littleinc.orm_benchmark.joogar_old.JoogarOldExecutor;
 import com.littleinc.orm_benchmark.ormlite.ORMLiteExecutor;
 import com.littleinc.orm_benchmark.realm.RealmExecutor;
@@ -46,7 +47,8 @@ public class OrmBenchmarksTask extends Task
                     new OptimizedSQLiteExecutor(),
                     new ORMLiteExecutor(),
                     new GreenDaoExecutor(),
-                    new JoogarOldExecutor()
+                    new JoogarOldExecutor(),
+                    new JoogarNewExecutor()
 };
 
     public String resultString;
