@@ -75,4 +75,6 @@ dependencies {
     provided 'javax.annotation:jsr250-api:1.0'
 
     apt 'com.google.auto.value:auto-value:1.1'
+
+    compile 'net.skoumal.joogar:joogar:0.1.6'
 }
